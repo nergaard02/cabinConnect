@@ -31,3 +31,19 @@ Requires Node.js and npm installed. Follow the instructions on the [Node.js webs
 3. Start the development server `npm run dev`
 4. Open the browser and go to `http://localhost:5173/` (Requires the backend to be running on port 8000)
 5. When finished, stop the server `Ctrl + C` in the terminal where the server is running.
+
+# How to Use the Application
+
+Start by either registering or logging in
+
+If you don't have an account, follow the **Registering an Account** instructions below.
+
+## Registering and Verifying an Account
+
+1. On the landing page, click **Sign in**.  
+2. Navigate to the **Register** tab and fill out all required fields.  
+3. After submitting the form, you will be redirected to the **Verification page**.  
+   - A **6-digit verification code** will be displayed in the terminal where your backend is running.  
+   - Enter this code on the verification page to activate your account.  
+4. If you are unable to verify within **15 minutes**, use the backup verification link that was printed in the backend terminal along with the 6-digit code.  
+5. Once verified, you will be redirected to the **Login page**. Log in with your newly created credentials (**username** and **password**).  
